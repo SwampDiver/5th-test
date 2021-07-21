@@ -1,0 +1,133 @@
+@keyframes circle {
+  0% {
+    left: -5000px;
+    transform: scale(0.1);
+  }
+
+  80% {
+    transform: scale(0.3);
+  }
+
+  100% {
+    left: 40px;
+    transform: scale(1);
+  }
+}
+
+@keyframes circle-mobile {
+  0% {
+    left: -5000px;
+    transform: scale(0.1);
+  }
+
+  90% {
+    transform: scale(0.3);
+  }
+
+  100% {
+    left: -40px;
+    transform: scale(1);
+  }
+}
+
+@keyframes triangle {
+  0% {
+    left: -5000px;
+    bottom: 2000px;
+    transform: scale(0.1);
+  }
+
+  60% {
+    transform: scale(0.1);
+  }
+
+  100% {
+    left: 20px;
+    bottom: 20px;
+    transform: scale(1);
+  }
+}
+
+@keyframes triangle-mobile {
+  0% {
+    left: -3000px;
+    bottom: 10000px;
+    transform: scale(0.1);
+  }
+
+  60% {
+    transform: scale(0.1);
+  }
+
+  100% {
+    left: -140px;
+    bottom: -40px;
+    transform: scale(1);
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  45% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotation-mobile {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  45% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(-18deg);
+  }
+}
+
+@keyframes line {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  55% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes line-mobile {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  63% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes pentagon {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
